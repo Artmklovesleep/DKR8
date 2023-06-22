@@ -1,0 +1,317 @@
+object Form1: TForm1
+  Left = 277
+  Height = 527
+  Top = 202
+  Width = 468
+  Caption = 'Form1'
+  ClientHeight = 527
+  ClientWidth = 468
+  Color = clGradientInactiveCaption
+  LCLVersion = '2.2.0.4'
+  object Edit1: TEdit
+    Left = 26
+    Height = 23
+    Top = 45
+    Width = 119
+    NumbersOnly = True
+    OnChange = Edit1Change
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 70
+    Height = 15
+    Top = 6
+    Width = 27
+    Caption = 'Шар'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 26
+    Height = 15
+    Top = 24
+    Width = 117
+    Caption = 'Введите радиус шара'
+  end
+  object Button1: TButton
+    Left = 26
+    Height = 25
+    Top = 70
+    Width = 119
+    Caption = 'Рассчитать '
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 27
+    Height = 23
+    Top = 128
+    Width = 118
+    OnChange = Edit2Change
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 60
+    Height = 15
+    Top = 102
+    Width = 53
+    Caption = 'Результат'
+  end
+  object Edit3: TEdit
+    Left = 252
+    Height = 23
+    Top = 46
+    Width = 146
+    NumbersOnly = True
+    OnChange = Edit3Change
+    TabOrder = 3
+  end
+  object Label4: TLabel
+    Left = 303
+    Height = 15
+    Top = 6
+    Width = 59
+    Caption = 'Цилиндр'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label4Click
+  end
+  object Label5: TLabel
+    Left = 252
+    Height = 15
+    Top = 25
+    Width = 141
+    Caption = 'Введите радиус цилиндра'
+  end
+  object Button2: TButton
+    Left = 252
+    Height = 25
+    Top = 122
+    Width = 146
+    Caption = 'Рассчитать '
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Edit4: TEdit
+    Left = 251
+    Height = 23
+    Top = 166
+    Width = 146
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object Label6: TLabel
+    Left = 301
+    Height = 15
+    Top = 147
+    Width = 53
+    Caption = 'Результат'
+  end
+  object Edit5: TEdit
+    Left = 251
+    Height = 23
+    Top = 91
+    Width = 147
+    NumbersOnly = True
+    TabOrder = 6
+  end
+  object Label7: TLabel
+    Left = 251
+    Height = 15
+    Top = 70
+    Width = 142
+    Caption = 'Введите высоту цилиндра'
+  end
+  object Edit6: TEdit
+    Left = 26
+    Height = 23
+    Top = 231
+    Width = 195
+    NumbersOnly = True
+    TabOrder = 7
+  end
+  object Label8: TLabel
+    Left = 88
+    Height = 15
+    Top = 240
+    Width = 109
+    Align = alCustom
+    Caption = 'Параллелепипед'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label4Click
+  end
+  object Label9: TLabel
+    Left = 26
+    Height = 15
+    Top = 210
+    Width = 180
+    Caption = 'Введите длину параллелепипеда'
+  end
+  object Button3: TButton
+    Left = 22
+    Height = 25
+    Top = 358
+    Width = 198
+    Caption = 'Рассчитать '
+    OnClick = Button3Click
+    TabOrder = 8
+  end
+  object Edit7: TEdit
+    Left = 25
+    Height = 23
+    Top = 410
+    Width = 196
+    ReadOnly = True
+    TabOrder = 9
+  end
+  object Label10: TLabel
+    Left = 96
+    Height = 15
+    Top = 384
+    Width = 53
+    Caption = 'Результат'
+  end
+  object Edit8: TEdit
+    Left = 26
+    Height = 23
+    Top = 277
+    Width = 196
+    NumbersOnly = True
+    TabOrder = 10
+  end
+  object Label11: TLabel
+    Left = 26
+    Height = 15
+    Top = 256
+    Width = 192
+    Caption = 'Введите ширину параллелепипеда'
+  end
+  object Edit9: TEdit
+    Left = 26
+    Height = 23
+    Top = 328
+    Width = 196
+    NumbersOnly = True
+    TabOrder = 11
+  end
+  object Label12: TLabel
+    Left = 26
+    Height = 15
+    Top = 307
+    Width = 186
+    Caption = 'Введите высоту параллелепипеда'
+  end
+  object Edit10: TEdit
+    Left = 250
+    Height = 23
+    Top = 238
+    Width = 156
+    NumbersOnly = True
+    OnChange = Edit10Change
+    TabOrder = 12
+  end
+  object Label13: TLabel
+    Left = 307
+    Height = 15
+    Top = 198
+    Width = 49
+    Caption = 'Призма'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label4Click
+  end
+  object Label14: TLabel
+    Left = 250
+    Height = 15
+    Top = 217
+    Width = 152
+    Caption = 'Введите основание призмы'
+  end
+  object Button4: TButton
+    Left = 252
+    Height = 25
+    Top = 365
+    Width = 158
+    Caption = 'Рассчитать '
+    OnClick = Button4Click
+    TabOrder = 13
+  end
+  object Edit11: TEdit
+    Left = 250
+    Height = 23
+    Top = 410
+    Width = 157
+    ReadOnly = True
+    TabOrder = 14
+  end
+  object Label15: TLabel
+    Left = 301
+    Height = 15
+    Top = 390
+    Width = 53
+    Caption = 'Результат'
+  end
+  object Edit12: TEdit
+    Left = 250
+    Height = 23
+    Top = 283
+    Width = 157
+    NumbersOnly = True
+    OnChange = Edit12Change
+    TabOrder = 15
+  end
+  object Label16: TLabel
+    Left = 250
+    Height = 15
+    Top = 262
+    Width = 138
+    Caption = 'Введите ширину призмы'
+    OnClick = Label16Click
+  end
+  object Edit13: TEdit
+    Left = 250
+    Height = 23
+    Top = 334
+    Width = 157
+    NumbersOnly = True
+    OnChange = Edit13Change
+    TabOrder = 16
+  end
+  object Label17: TLabel
+    Left = 250
+    Height = 15
+    Top = 314
+    Width = 132
+    Caption = 'Введите высоту призмы'
+  end
+  object BitBtn1: TBitBtn
+    Left = 90
+    Height = 30
+    Top = 454
+    Width = 282
+    Caption = 'Закрыть приложение'
+    GlyphShowMode = gsmAlways
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 17
+  end
+end
